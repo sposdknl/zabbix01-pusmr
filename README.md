@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HlDpWB5G)
 # zbx7-auto-reg
 
 The independent work - Vagrant and Zabbix Agent2 7.0 LTS - Auto-registration to
@@ -25,4 +26,10 @@ automaticky registroval na privátní - [Zabbix pfSense](https://enceladus.pfsen
 - Zabbix 7.0 LTS [auto-registration](https://www.zabbix.com/documentation/7.0/en/manual/discovery/auto_registration)
 - [Vagrant examples](https://github.com/sposdknl/2025-sposdk-osy/tree/main/Vagrant)
 
-...
+…
+
+## Postup
+
+-Vytvořil jsem vagrant file pomocí vagrant init a dal jsem mu cestu k install-zabbix, a configure-zabbix
+-přidal jsem soubory: configure-zabbix-agent a install-zabbix-agent
+-do installu jsem vložil kód pro stáhnutí a spuštění zabbixu a do configure jsem nastavil automatické přihlášení do SPOS zabbixu
