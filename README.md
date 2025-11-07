@@ -26,4 +26,10 @@ automaticky registroval na privátní - [Zabbix pfSense](https://enceladus.pfsen
 - Zabbix 7.0 LTS [auto-registration](https://www.zabbix.com/documentation/7.0/en/manual/discovery/auto_registration)
 - [Vagrant examples](https://github.com/sposdknl/2025-sposdk-osy/tree/main/Vagrant)
 
-...
+…
+
+## Postup
+
+-Vytvořil jsem vagrant file pomocí vagrant init a dal jsem mu cestu k install-zabbix, a configure-zabbix
+-přidal jsem soubory: configure-zabbix-agent a install-zabbix-agent
+-do installu jsem vložil kód pro stáhnutí a spuštění zabbixu a do configure jsem nastavil automatické přihlášení do SPOS zabbixu
